@@ -11,27 +11,35 @@
 }
 
 .styleh1 {
-    width: fit-content;
     background-color: orchid;
-    margin: 0 auto;
-    border-radius: 25px;
 }
+
 .styleh2 {
-    width: fit-content;
     background-color: rgb(219, 21, 47);
+}
+
+.styleh1, .styleh2 {
+    width: fit-content;
     margin: 0 auto;
-    border-radius: 25px;
+    border-radius: 60px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.vegetables, .fruits {
+    margin: 0 auto;
+    width: 25%;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 15px;
 }
 
 .vegetables {
-    margin: 0 auto;
-    width: 35%;
     background-color: rgb(247, 146, 14);
 }
 
 .fruits {
-    margin: 0 auto;
-    width: 35%;
     background-color: rgb(3, 240, 3);
 }
 
