@@ -1,0 +1,41 @@
+.container {
+    background-image: url("fvmix.PNG");
+    text-align: center;
+}
+
+.container-wrapp {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.styleh1 {
+    width: fit-content;
+    background-color: orchid;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+.styleh2 {
+    width: fit-content;
+    background-color: rgb(219, 21, 47);
+    margin: 0 auto;
+    border-radius: 25px;
+}
+
+.vegetables {
+    margin: 0 auto;
+    width: 35%;
+    background-color: rgb(247, 146, 14);
+}
+
+.fruits {
+    margin: 0 auto;
+    width: 35%;
+    background-color: rgb(3, 240, 3);
+}
+
+.border {
+    border: 2px solid red;
+    border-radius: 70px;
+}
