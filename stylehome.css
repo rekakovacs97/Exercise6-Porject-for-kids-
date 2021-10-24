@@ -1,6 +1,13 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
 .container {
     background-image: url("fvmix.PNG");
     text-align: center;
+    width: 100%;
+    height: 100%; 
 }
 
 .container-wrapp {
@@ -12,27 +19,24 @@
 
 .styleh1 {
     background-color: orchid;
+    padding: 10px;
 }
 
-.styleh2 {
-    background-color: rgb(219, 21, 47);
-}
-
-.styleh1, .styleh2 {
+.styleh1 {
     width: fit-content;
     margin: 0 auto;
     border-radius: 60px;
     padding: 20px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .vegetables, .fruits {
     margin: 0 auto;
-    width: 25%;
+    width: 30%;
     margin-bottom: 20px;
     padding: 15px;
-    font-size: 15px;
+    font-size: 18px;
     border-radius: 70px;
 }
 
@@ -44,3 +48,8 @@
     background-color: rgb(3, 240, 3);
 }
 
+#fruitsButton, #veggieButton{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;s
+}

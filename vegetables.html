@@ -7,55 +7,98 @@
     <link rel="stylesheet" href="vegetables.css">
 </head>
 <body>
-    <button onclick="goBack()">Go back</button>
+    <button onclick="goBack()" class="button">Home</button>
+    <button onclick="fruits()" class="button stylebutton2">Fruits</button>
     <div class="container">
-        
-        <h1>Let's speak about vegetables</h1>
+        <h1 class="pagename">Let's speak about vegetables!</h1>
         <div class="container-wrapp">
             <div class="names">
                 <ul>
-                    <li><a href="#bellpepper" target="_blank">Bell Peppers</a></li>
+                    <li><a href="#bellpepper">Bell Peppers</a></li>
                     <li><a href="#greenbeas">Green Beans</a></li>
                     <li><a href="#carrots">Carrots</a></li>
                     <li><a href="#peas">Peas</a></li>
                     <li><a href="#broccoli">Broccoli</a></li>
-                    <li><a href="">Spinach</a></li>
-                    <li><a href="">Cucumbers</a></li>
-                    <li><a href="">Celery</a></li>
-                    <li><a href="">Avocados</a></li>
-                    <li><a href="">Corn</a></li>
-                    <li><a href="">Potatoes</a></li>
+                    <li><a href="#spinach">Spinach</a></li>
+                    <li><a href="#cucumber">Cucumbers</a></li>
+                    <li><a href="#celery">Celery</a></li>
+                    <li><a href="#mushroom">Mushrooms</a></li>
+                    <li><a href="#corn">Corn</a></li>
+                    <li><a href="#potatoes">Potatoes</a></li>
                 </ul>
             </div>
-            <div>
-                <h2 id="bellpepper">Bell Peppers</h2>
-                <p >The natural sweetness of bell peppers makes them an obvious choice for introducing healthy veggies
-                    into kids’ diets. They’re also versatile. Raw bell peppers taste great dipped in hummus, while
-                    cooked ones will liven up a stir fry. If your kid has an aversion to a certain food color,
-                    you’re in luck! These come in red, orange, green, or yellow.</p>
-                <h2 id="greenbeas">Green Beas</h2>
-                <p>Green beans are high in both Vitamin K and calcium, so they benefit bone growth and blood health. This makes
-                    green beans one of the best vegetables for toddlers, whose bones grow incredibly fast. Kids who 
-                    prefer crunchier textures can eat them raw, and those that like soft veggies can eat the canned variety.</p>
-                <h2 id="carrots">Carrots</h2>
-                <p>There’s a good chance carrots are one of the few vegetables you don’t have trouble getting your kids to eat. 
-                    Paired with hummus or a yogurt dip, they make for a delicious and agreeable snack. They also go nicely cooked into a
-                     hearty stew. These tasty veggies are full of beta carotene, fiber, potassium, and antioxidants.</p>
-                <h2 id="peas">Peas</h2>
-                <p>Despite being somewhat unsightly green balls, lots of kids love peas. The sweet flavor and soft texture make them easy to
-                     stomach.If your kid prefers a crunch, you can leave them in the pods. Peas are great for growing minds, aiding in 
-                     the development of brain cells and improving memory.</p>
-                <h2 id="broccoli">Broccoli</h2>
-                <p>Broccoli is one of the best sources of fiber around. Lots of kids like steamed broccoli, but if finely chopped,
-                     you can incorporate it into salads or sauces too. Raw broccoli also tastes good with a dip. This excellent veggie
-                      strengthens immune systems, improves eyesight, and helps regulate bowel movements.</p>
+            <div class="content">
+                <div class="first">
+                    <h2 id="bellpepper">Bell Peppers</h2>
+                    <p >The natural sweetness of bell peppers makes them an obvious choice for introducing healthy veggies
+                        into kids’ diets. They’re also versatile. Raw bell peppers taste great dipped in hummus, while
+                        cooked ones will liven up a stir fry. If your kid has an aversion to a certain food color,
+                        you’re in luck! These come in red, orange, green, or yellow.</p>                  
+                </div>
+                <div class="second">
+                    <h2 id="greenbeas">Green Beas</h2>
+                    <p>Green beans are high in both Vitamin K and calcium, so they benefit bone growth and blood health. This makes
+                        green beans one of the best vegetables for toddlers, whose bones grow incredibly fast. Kids who 
+                        prefer crunchier textures can eat them raw, and those that like soft veggies can eat the canned variety.</p>
+                </div>
+                <div class="first">
+                    <h2 id="carrots">Carrots</h2>
+                    <p>There’s a good chance carrots are one of the few vegetables you don’t have trouble getting your kids to eat. 
+                        Paired with hummus or a yogurt dip, they make for a delicious and agreeable snack. They also go nicely cooked into a
+                        hearty stew. These tasty veggies are full of beta carotene, fiber, potassium, and antioxidants.</p>
+                </div>
+                <div class="second">
+                    <h2 id="peas">Peas</h2>
+                    <p>Despite being somewhat unsightly green balls, lots of kids love peas. The sweet flavor and soft texture make them easy to
+                        stomach.If your kid prefers a crunch, you can leave them in the pods. Peas are great for growing minds, aiding in 
+                        the development of brain cells and improving memory.</p>
+                </div>
+                <div class="first">
+                    <h2 id="broccoli">Broccoli</h2>
+                    <p>Broccoli is one of the best sources of fiber around. Lots of kids like steamed broccoli, but if finely chopped,
+                        you can incorporate it into salads or sauces too. Raw broccoli also tastes good with a dip. This excellent veggie
+                        strengthens immune systems, improves eyesight, and helps regulate bowel movements.</p>
+                </div>
+                <div class="second">
+                    <h2 id="spinach">Spinach</h2>                            
+                    <p>Start by using spinach as an undercover veggie, incorporating it into sweet treats like smoothies and popsicles.
+                        (Its green color won’t be visible when mixed with fruits like blueberries and blackberries.) Once your child
+                        becomes more comfortable with the dark green color and mild taste, start adding spinach to sandwiches, side
+                        salads and veggie sautees.</p>
+                </div>
+                <div class="first">
+                    <h2 id="cucumber">Cucumber</h2>
+                    <p>Cucumbers have a very high water content, making their flavor more mild and palatable for kids. Whether cut into
+                        spears or coins, eaten plain or dipped in hummus, cucumbers can be served up in a variety of ways. Leave the skin 
+                        on for extra crunch and fiber in your little one’s snack.</p>
+                </div>
+                <div class="second">
+                    <h2 id="celery">Celery</h2>
+                    <p>Snack time can turn into craft time when you make ants on a log with your kids. With nut butter, dried fruit and 
+                        celery sticks, your kids can make their own fun snack. Celery can also be dipped in hummus and Greek yogurt dips
+                        alongside carrots and cucumbers.</p>
+                </div>
+                <div class="first">
+                    <h2 id="mushroom">Mushrooms</h2>
+                    <p>Whole mushrooms can be daunting for picky eaters due to their texture, but even picky eaters can learn to
+                        appreciate their umami flavor. Pair chopped mushrooms with other vegetables and add them to a marinara sauce 
+                        for a hearty, veggie-driven pasta. Mushrooms are a good way to add more vitamin D into your child’s diet, too.</p>
+                </div>
+                <div class="second">
+                    <h2 id="corn">Corn</h2>
+                    <p>Sweet corn is one of the easier treats to get kids to eat due to its pleasant flavor. Grilling corn on the cob makes
+                        for a fun snack to bite into, but it’s also easy to incorporate loose kernels into a salad or grilled veggie mixture.
+                        High fiber content aids with digestion, and B vitamins contribute to overall developmental health.</p>
+                </div>
+                <div class="first">
+                    <h2 id="potatoes">Potatoes</h2>
+                    <p>Every kid loves French fries, but be sure to feed them healthier versions of potatoes too. Leave the skin on for
+                        extra nutrients. Eaten whole, these tasty favorites provide essential iron, protein, carbohydrates, and Vitamin C. 
+                        Studies have shown they also help kids with sleeping disorders.</p>
+                </div>
             </div>
         </div>
-        
     </div>
-
-    
-    
     <script src="myJS.js"></script>
 </body>
 
